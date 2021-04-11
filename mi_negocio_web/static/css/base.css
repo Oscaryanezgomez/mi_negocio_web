@@ -203,7 +203,8 @@ ul.errorlist {
 }
 
 .product-list .item img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
     margin-bottom: 8px;
 }
 
@@ -339,4 +340,10 @@ form div.field {
     background: #efefef;
     color: #666;
     border-radius: 4px;
+}
+
+.cart {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
 }

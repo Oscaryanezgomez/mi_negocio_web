@@ -70,3 +70,4 @@ class Carrito(object):
         #Elimina el carrito de la sesion
         del self.session[settings.CARRITO_SESSION_ID]
         self.guardar()
+

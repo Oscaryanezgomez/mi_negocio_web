@@ -23,5 +23,3 @@ def crear_orden(request):
     return render(request, 
                   'ordenes/crear.html', 
                   {'carrito': carrito, 'formulario': formulario})
-
-    
