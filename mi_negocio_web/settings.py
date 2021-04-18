@@ -161,7 +161,17 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 ACCOUNT_LOGOUT_REDIRECT_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-t d
+#Mailchip
+
+MAILCHIMP_API_KEY = "1d413730100533f08d721e5b8a06e72f-us1"
+MAILCHIMP_DATA_CENTER = "us1"
+MAILCHIMP_EMAIL_LIST_ID = "4b7aec538a"
+
+#Stripe 
+
+STRIPE_PUBLIC_KEY = "pk_test_51IhP93JtDtTzAo7gSl7ZaeuIJ17u2h7zSSpDEUFeslOudgE7PmtKczUAOlVwU76Yg6vd1QD5CLENvyxw8gqHO9UW00yo4eqpna"
+STRIPE_SECRET_KEY = "sk_test_51IhP93JtDtTzAo7gKWfSce7HOG1zrce7p3V7wTGft5btnM056to6p8gm1pJzSxHZIzBuHDC3bModZJ3rzb1bhBqh00wbn4SCZl"
+
 #whitenoise
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
