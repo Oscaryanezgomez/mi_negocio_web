@@ -163,7 +163,7 @@ LOGIN_REDIRECT_URL = '/'
 
 #Mailchip
 
-MAILCHIMP_API_KEY = "1d413730100533f08d721e5b8a06e72f-us1"
+MAILCHIMP_API_KEY = "74765f3b5b9ec827e7fd41869c6eebf3-us1"
 MAILCHIMP_DATA_CENTER = "us1"
 MAILCHIMP_EMAIL_LIST_ID = "4b7aec538a"
 
@@ -172,6 +172,6 @@ MAILCHIMP_EMAIL_LIST_ID = "4b7aec538a"
 STRIPE_PUBLIC_KEY = "pk_test_51IhP93JtDtTzAo7gSl7ZaeuIJ17u2h7zSSpDEUFeslOudgE7PmtKczUAOlVwU76Yg6vd1QD5CLENvyxw8gqHO9UW00yo4eqpna"
 STRIPE_SECRET_KEY = "sk_test_51IhP93JtDtTzAo7gKWfSce7HOG1zrce7p3V7wTGft5btnM056to6p8gm1pJzSxHZIzBuHDC3bModZJ3rzb1bhBqh00wbn4SCZl"
 
-#whitenoise
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# Whitenoise
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
